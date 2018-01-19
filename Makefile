@@ -1,7 +1,5 @@
 
 subdir-y = \
-	0000 \
-	0001 \
-	0002
+	$(sort $(filter-out libmakefile/,$(wildcard */)))
 
 include Makefile.lib
