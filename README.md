@@ -1,0 +1,2 @@
+# libmakefile-test
+libmakefile-test
