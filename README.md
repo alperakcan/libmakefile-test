@@ -10,4 +10,6 @@ libmakefile-test
 - 0003: qt using moc support, uic using target-depends-y
 - 0004: qt using moc support, uic using file.h: rule
 - 0005: qt using moc and uic support
+- 0006: qt using moc and uic support, ui files from outer directory
+- 0007: qt using moc and uic support, ui files from outer (far away) directory
 
