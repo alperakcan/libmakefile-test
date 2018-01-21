@@ -2,6 +2,17 @@
 
 libmakefile-test
 
+## clone
+
+    git clone https://github.com/alperakcan/libmakefile-test.git libmakefile-test.git
+    cd libmakefile-test
+    git submodule update --init --recursive
+
+## run
+
+    cd libmakefile-test
+    make
+
 ## tests
 
 - 0000: empty project
