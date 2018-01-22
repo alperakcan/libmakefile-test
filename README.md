@@ -23,4 +23,4 @@ libmakefile-test
 - 0005: qt using moc and uic support
 - 0006: qt using moc and uic support, ui files from outer directory
 - 0007: qt using moc and uic support, ui files from outer (far away) directory
-
+- 0008: generated header file
