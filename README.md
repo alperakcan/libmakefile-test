@@ -25,3 +25,5 @@ libmakefile-test
 - 0007: qt using moc and uic support, ui files from outer (far away) directory
 - 0008: generated header file
 - 0009: multiple ui files
+- 0010: custom class in ui file (with includes-y)
+- 0010: custom class in ui file (with default includes)
