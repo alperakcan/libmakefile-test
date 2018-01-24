@@ -5,7 +5,7 @@ target-y = \
 multipleinheritance_files-y = \
 	calculatorform/ui/calculatorform.ui \
 	calculatorform/cpp/calculatorform.cpp \
-	calculatorform/h/calculatorform-moc.cpp \
+	calculatorform/h/calculatorform.moc \
 	main.cpp
 
 multipleinheritance_cxxflags-y += \

@@ -2,7 +2,7 @@
 #ifndef CALCULATORFORM_H
 #define CALCULATORFORM_H
 
-#include ".multipleinheritance/__UPDIR__/0006/ui/ui_calculatorform.h"
+#include ".multipleinheritance/__UPDIR__/0006/ui/calculatorform-ui.h"
 
 class CalculatorForm : public QWidget, private Ui::CalculatorForm
 {
