@@ -6,6 +6,9 @@ liba.a_files-y = \
 	a.c \
 	b/b.c
 
+liba.a_b/b.c_cflags-y = \
+	-DLIBB_FLAG=1
+
 target-y = \
 	main
 
