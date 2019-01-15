@@ -33,7 +33,7 @@ libstrength.so_files-y = \
 include ../Makefile.lib
 
 generated.h: generate
-	./generate > generated.h
+	${Q}./generate > generated.h
 
 clean:
 	${Q}${RM} generated.h

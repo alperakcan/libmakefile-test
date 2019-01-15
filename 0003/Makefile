@@ -11,7 +11,7 @@ multipleinheritance_depends-y = \
 	ui_calculatorform.h
 
 multipleinheritance_cxxflags-y += \
-	$(shell pkg-config Qt5Widgets --cflags)
+	$(shell pkg-config Qt5Widgets --cflags) -std=c++11
 
 multipleinheritance_ldflags-y += \
 	$(shell pkg-config Qt5Widgets --libs)
