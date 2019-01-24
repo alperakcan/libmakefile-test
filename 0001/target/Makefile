@@ -10,4 +10,7 @@ target_files-y = \
 	../common/00.c \
 	../common/01.c
 
+subdir-y = \
+	target2
+
 include ../../Makefile.lib
